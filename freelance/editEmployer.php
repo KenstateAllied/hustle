@@ -78,13 +78,13 @@ if(isset($_POST["editEmployer"])){
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Freelance Marketplace</a>
+			<a href="index.php" class="navbar-brand">Remote Projects</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Browse all jobs</a></li>
-				<li><a href="#how">Browse Freelancers</a></li>
-				<li><a href="#faq">Browse Employers</a></li>
+				<li><a href="#">All Projects</a></li>
+				<li><a href="#how">Freelancers</a></li>
+				<li><a href="#faq">Employers</a></li>
 				<li class="dropdown" style="background:#000;padding:0 20px 0 20px;">
 			        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> <?php echo $username; ?>
 			        </a>
@@ -180,7 +180,7 @@ if(isset($_POST["editEmployer"])){
                 </div>
 
                 <div class="form-group">
-                    <label class="col-sm-4 control-label">Profile Summery</label>
+                    <label class="col-sm-4 control-label">Profile Summary</label>
                     <div class="col-sm-5">
                         <input type="text" class="form-control" name="profile_sum" value="<?php echo $profile_sum; ?>" />
                     </div>
@@ -204,22 +204,22 @@ if(isset($_POST["editEmployer"])){
             <div class="col-lg-3">
             <h3>Quick Links</h3>
             <p><a href="index.php">Home</a></p>
-            <p><a href="allJob.php">Browse all jobs</a></p>
-            <p><a href="allFreelancer.php">Browse Freelancers</a></p>
-            <p><a href="allEmployer.php">Browse Employers</a></p>
+            <p><a href="allJob.php">All Projects</a></p>
+            <p><a href="allFreelancer.php">Freelancers</a></p>
+            <p><a href="allEmployer.php">Employers</a></p>
         </div>
         <div class="col-lg-3">
-            <h3>About Us</h3>
-            <p>Rahamat-E-Elahi, CUET ID-1304054</p>
-            <p>Shovagata Sarker Borno, CUET ID-1304041</p>
-            <p>Md. Sharifullah, CUET ID-1304049</p>
-            <p>&copy 2018</p>
+            <h3>About</h3>
+            <p>Hustlers Consortium</p>
+            <p>Software Projects & Digital Works</p>
+            
+            <p>&copy 2024</p>
         </div>
         <div class="col-lg-3">
             <h3>Contact Us</h3>
-            <p>Chittagong University of Engineering and Technology</p>
-            <p>Chittagong, Bangladesh</p>
-            <p>&copy CUET 2018</p>
+            <p>sales@kenstate.co.ke</p>
+            <p>Tel / Whatsapp +254 724 052 417 </p>
+            <p>Offices Westlands Nairobi , Eldoret CBD Kenya</p>
         </div>
         <div class="col-lg-3">
             <h3>Social Contact</h3>

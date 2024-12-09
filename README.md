@@ -1,5 +1,5 @@
 # website-freelance-marketplace
-A simple project of a website of freelance marketplace using HTML, CSS, bootstrap, php and Mysql.
+A simple project of a website of Remote Projects using HTML, CSS, bootstrap, php and Mysql.
 
 
 Tutorial to use this as project.

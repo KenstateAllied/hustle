@@ -3,7 +3,7 @@ session_start();
 
 
 // Create connection
-$conn = new mysqli("localhost", "root", "mutsam", "kenstate_fmarket");
+$conn = new mysqli("localhost", "root", "", "fmarket");
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

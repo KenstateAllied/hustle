@@ -77,13 +77,13 @@ if(isset($_POST["s_email"])){
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Freelance Marketplace</a>
+			<a href="index.php" class="navbar-brand">Remote Projects</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="allJob.php">Browse all jobs</a></li>
-				<li><a href="allFreelancer.php">Browse Freelancers</a></li>
-				<li><a href="allEmployer.php">Browse Employers</a></li>
+				<li><a href="allJob.php">All Projects</a></li>
+				<li><a href="allFreelancer.php">Freelancers</a></li>
+				<li><a href="allEmployer.php">Employers</a></li>
 				<li class="dropdown" style="background:#000;padding:0 20px 0 20px;">
 			        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> <?php echo $username; ?>
 			        </a>
@@ -201,27 +201,26 @@ if(isset($_POST["s_email"])){
 <div class="text-center" style="padding:4%;background:#222;color:#fff;margin-top:20px;">
 	<div class="row">
 			<div class="col-lg-3">
-			<h3>Quick Links</h3>
+			<h3>Links</h3>
 			<p><a href="index.php">Home</a></p>
-			<p><a href="allJob.php">Browse all jobs</a></p>
-			<p><a href="allFreelancer.php">Browse Freelancers</a></p>
-			<p><a href="allEmployer.php">Browse Employers</a></p>
+			<p><a href="allJob.php">All jobs</a></p>
+			<p><a href="allFreelancer.php">Freelancers</a></p>
+			<p><a href="allEmployer.php">Employers</a></p>
 		</div>
 		<div class="col-lg-3">
-			<h3>About Us</h3>
-			<p>Rahamat-E-Elahi, CUET ID-1304054</p>
-			<p>Shovagata Sarker Borno, CUET ID-1304041</p>
-			<p>Md. Sharifullah, CUET ID-1304049</p>
-			<p>&copy 2018</p>
+			<h3>About</h3>
+			<p>Hustlers Consortium</p>
+			<p>Software Projects & Digital Works</p>
+			<p>&copy 2024</p>
 		</div>
 		<div class="col-lg-3">
-			<h3>Contact Us</h3>
-			<p>Chittagong University of Engineering and Technology</p>
-			<p>Chittagong, Bangladesh</p>
-			<p>&copy CUET 2018</p>
+			<h3>Contacts</h3>
+			<p>sales@kenstate.co.ke</p>
+			<p>Tel / Whatsapp +254 724 052 417 </p>
+			<p>&copy 2024</p>
 		</div>
 		<div class="col-lg-3">
-			<h3>Social Contact</h3>
+			<h3>Social Media</h3>
 			<p style="font-size:20px;color:#3B579D;"><i class="fab fa-facebook-square"> Facebook</i></p>
 			<p style="font-size:20px;color:#D34438;"><i class="fab fa-google-plus-square"> Google</i></p>
 			<p style="font-size:20px;color:#2CAAE1;"><i class="fab fa-twitter-square"> Twitter</i></p>

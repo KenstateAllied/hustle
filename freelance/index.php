@@ -19,7 +19,7 @@ else{
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Freelance Marketplace</title>
+	<title>Remote Projects</title>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -46,7 +46,7 @@ else{
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Freelance Marketplace</a>
+			<a href="index.php" class="navbar-brand">Remote Projects</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<a href="loginReg.php" class="btn btn-info navbar-btn navbar-right">Register</a>
@@ -70,9 +70,9 @@ else{
 	<div class="col-lg-4">
 		<div class="jumbotron">
 			<div class="container text-center">
-				<h1>Freelance Marketplace</h1>
-				<p>Remember, time is money. Use it properly. Do not waste your time thinking when others are getting things done here.</p>
-				<a href="loginReg.php" class="btn btn-warning btn-lg">It's Free!! Join Now!!!</a>
+				<h1>Remote Projects</h1>
+				<p>Have any type of digital works you need to be done? Looking for works?</p>
+				<a href="loginReg.php" class="btn btn-warning btn-lg">Register now and start earning</a>
 				<p></p>
 				<div class="btn-group">
 					<a href="#how" type="button" class="btn btn-info">How it works</a>
@@ -97,23 +97,24 @@ else{
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		      <img src="image/computer.jpg" alt="Chania">
+		      <img src="image/dev1.jpg" alt="Chania">
 		      <div class="carousel-caption">
 		        <h3>Work</h3>
-		        <p>Work hard to be successful.</p>
+		        <p>Register and thrive</p>
 		      </div>
 		    </div>
 
 		    <div class="item">
-		      <img src="image/mug.jpg" alt="Chania">
+		      <img src="image/dev2.jpg" alt="Chania">
 		      <div class="carousel-caption">
 		        <h3>Time</h3>
-		        <p>Do not waste your time.</p>
+		        <p>Work Smart</p>
 		      </div>
 		    </div>
 
 		    <div class="item">
-		      <img src="image/coat.jpg" alt="Flower">
+		      
+			  <img src="image/coat1.jpg" alt="Flower">
 		      <div class="carousel-caption">
 		        <h3>Believe</h3>
 		        <p>Always believe in yourself.</p>
@@ -149,7 +150,7 @@ else{
 		</div>
 		<div class="col-lg-6" style="padding:40px 80px 40px 80px;margin-top:15px;box-shadow: 4px 4px 2px 5px rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);background:#fff">
 			<h1>Looking for work?</h1>
-			<p>If you are an expert in any kind of computer related or online work, then do not hesitate to join our platform. It is easy to use and payment is secured. It is a great platform to those people who are skillful. So do not miss the chance to explore the job posts and make some money.</p>
+			<p>If you are an expert in any kind of digital works, then do not hesitate to join our platform. It is easy to use and payment is secured. It is a great platform to those people who are skillful. So do not miss the chance to explore the job posts and make some money.</p>
 			<p></p>
 			<a href="loginReg.php" class="btn btn-primary btn-lg">Get Started</a>
 		</div>
@@ -221,7 +222,7 @@ else{
 			<p>It's always free to post your project. You’ll automatically begin to receive bids from our freelancers. Also, you can browse through the talent available on our site, and contact them by the contact information.</p>
 		</div>
 		<div class="col-lg-6">
-			<img src="image/img01.jpg">
+			<img src="image/project.png">
 		</div>
 	</div>
 	<div class="row card" style="padding:30px 60px 30px 60px;margin:30px;">
@@ -230,7 +231,7 @@ else{
 			<p>We have a complete security to your valuable money. You have the rights to pay the deposited money after the project completed. We have a good refund policy to make sure of satisfaction of the project completed.</p>
 		</div>
 		<div class="col-lg-6">
-			<img src="image/img02.jpg">
+			<img src="image/dollars.jpg">
 		</div>
 	</div>
 	<div class="row card" style="padding:30px 60px 30px 60px;margin:30px;">
@@ -239,7 +240,7 @@ else{
 			<p>It is easier to talk with the freelancers here. So before you hire any freelancer feel free to talk with them. Tell them what you need and get the project done in the shortest possible time.</p>
 		</div>
 		<div class="col-lg-6">
-			<img src="image/img03.jpg">
+			<img src="image/comm.png">
 		</div>
 	</div>
 	<div class="row card" style="padding:30px 60px 30px 60px;margin:30px;">
@@ -248,7 +249,7 @@ else{
 			<p>If you have a lot of works to be done or run a small business that needs some freelancers in a daily basis, this is the perfect place for you. Build your employer profile today and start hiring.</p>
 		</div>
 		<div class="col-lg-6">
-			<img src="image/img04.jpg">
+			<img src="image/profile.jpg">
 		</div>
 	</div>
 </div>
@@ -260,10 +261,10 @@ else{
 <div class="container text-center" style="padding:4%;" id="faq">
   <h1 class="card header2" style="background:#007BFF">FAQ</h1>
   <div class="btn-group-vertical">
-  <button type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#demo" style="width:1062px"><h3>What is Freelance Marketplace?</h3></button>
+  <button type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#demo" style="width:1062px"><h3>What is Remote Projects?</h3></button>
   <div id="demo" class="collapse">
   	<div class="card" style="padding:20px 40px 20px 40px;">
-  		<h4>Freelance marketplace is an online outsourcing platform that puts employers and businesses in contact with a global network of freelancers. Any member can post a project, whether a short- or long-term job, and choose from skilled freelancers who offer bid proposals with rate for completing the work. It's a mutually beneficial arrangement. <br>Employers can have their pick of thousands of freelancers who have the exact skills needed to get the job done, without undertaking the expense and commitment of hiring full-time employees in person. <br>Freelancers can tap into a readily available source of constant part-time and full-time work opportunities from employers who are specifically seeking them out.</h4>
+  		<h4>Remote Projects is an online outsourcing platform that puts employers and businesses in contact with a global network of freelancers. Any member can post a project, whether a short- or long-term job, and choose from skilled freelancers who offer bid proposals with rate for completing the work. It's a mutually beneficial arrangement. <br>Employers can have their pick of thousands of freelancers who have the exact skills needed to get the job done, without undertaking the expense and commitment of hiring full-time employees in person. <br>Freelancers can tap into a readily available source of constant part-time and full-time work opportunities from employers who are specifically seeking them out.</h4>
   	</div>
   </div>
   <button type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#demo1" style="width:1062px"><h3>I am an Employer, how will this site work for me?</h3></button>
@@ -281,7 +282,7 @@ else{
   <button type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#demo3" style="width:1062px"><h3>Do I have to pay to register?</h3></button>
   <div id="demo3" class="collapse">
   	<div class="card" style="padding:20px 40px 20px 40px;">
-  		<h4>No. Freelance marketplace is absolutely free to register and explore the posted job offers, freelancers and employers.</h4>
+  		<h4>No. Remote Projects is absolutely free to register and explore the posted job offers, freelancers and employers.</h4>
   	</div>
   </div>
   </div>
@@ -301,17 +302,17 @@ else{
 			<p><a href="loginReg.php">Register</a></p>
 		</div>
 		<div class="col-lg-3">
-			<h3>About Us</h3>
-			<p>Rahamat-E-Elahi, CUET ID-1304054</p>
-			<p>Shovagata Sarker Borno, CUET ID-1304041</p>
-			<p>Md. Sharifullah, CUET ID-1304049</p>
-			<p>&copy 2018</p>
+			<h3>About</h3>
+			<p>Hustlers Consortium</p>
+			<p>Software Projects & Digital Works</p>
+			
+			<p>&copy 2024</p>
 		</div>
 		<div class="col-lg-3">
 			<h3>Contact Us</h3>
-			<p>Chittagong University of Engineering and Technology</p>
-			<p>Chittagong, Bangladesh</p>
-			<p>&copy CUET 2018</p>
+			<p>sales@kenstate.co.ke</p>
+			<p>Tel / Whatsapp +254 724 052 417 </p>
+			<p>Offices Westlands Nairobi , Eldoret CBD Kenya</p>
 		</div>
 		<div class="col-lg-3">
 			<h3>Social Contact</h3>

@@ -48,13 +48,13 @@ CREATE TABLE `employer` (
 --
 
 INSERT INTO `employer` (`username`, `password`, `Name`, `email`, `contact_no`, `address`, `gender`, `birthdate`, `company`, `profile_sum`) VALUES
-('aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', '2018-06-07', 'aaa', 'aaa'),
-('aaa1', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', '2018-06-07', 'aaa', 'aaa'),
+('aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', '2024-06-07', 'aaa', 'aaa'),
+('aaa1', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', '2024-06-07', 'aaa', 'aaa'),
 ('dddddd', '1dddddd', 'Ddd Dd', 'd@d', '123456', 'dfd', 'female', '2222-11-11', 'qqq', 'qqq'),
-('employer1', '111111', 'Employer One', 'e@e1', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'Company1', 'This is a profile summery'),
-('employer2', '111111', 'Employer Two', 'e@e2', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'Company1', 'This is a profile summery'),
-('employer3', '111111', 'Employer Three', 'e@e3', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'Company1', 'This is a profile summery'),
-('rrrupom', 'rrrupom', 'Rupom', 'rupom', 'rupom', 'rupom', '', '2018-06-04', 'rupom', 'rupom');
+('employer1', '111111', 'Employer One', 'e@e1', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'Company1', 'This is a Profile Summary'),
+('employer2', '111111', 'Employer Two', 'e@e2', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'Company1', 'This is a Profile Summary'),
+('employer3', '111111', 'Employer Three', 'e@e3', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'Company1', 'This is a Profile Summary'),
+('rrrupom', 'rrrupom', 'Rupom', 'rupom', 'rupom', 'rupom', '', '2024-06-04', 'rupom', 'rupom');
 
 -- --------------------------------------------------------
 
@@ -95,10 +95,10 @@ CREATE TABLE `freelancer` (
 
 INSERT INTO `freelancer` (`username`, `password`, `Name`, `email`, `contact_no`, `address`, `gender`, `birthdate`, `prof_title`, `profile_sum`, `education`, `experience`, `skills`) VALUES
 ('ffffff', '1ffffff', 'f', 'f@f', '123456', 'f', 'other', '2222-11-11', 'gggggggggg', 'lllllllll', 'mmmmmmmmmmmm', 'nnnnnnnnnn', 'kkkkkkkkk'),
-('freelancer1', '111111', 'Freelancer One', 'f@f1', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'Chittagong University of Engineering and Technology', 'Local developing site', 'web design'),
-('freelancer2', '111111', 'Freelancer Two', 'f@f2', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'Chittagong University of Engineering and Technology', 'Local developing site', 'web design'),
-('freelancer3', '111111', 'Freelancer Three', 'f@f3', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'Chittagong University of Engineering and Technology', 'Local developing site', 'web design'),
-('freelancer4', '111111', 'Freelancer Four', 'f@4', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'Chittagong University of Engineering and Technology', 'Local developing site', 'web design'),
+('freelancer1', '111111', 'Freelancer One', 'f@f1', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'sales@kenstate.co.ke', 'Local developing site', 'web design'),
+('freelancer2', '111111', 'Freelancer Two', 'f@f2', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'sales@kenstate.co.ke', 'Local developing site', 'web design'),
+('freelancer3', '111111', 'Freelancer Three', 'f@f3', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'sales@kenstate.co.ke', 'Local developing site', 'web design'),
+('freelancer4', '111111', 'Freelancer Four', 'f@4', '123456', 'Raojan, Chittagong', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'sales@kenstate.co.ke', 'Local developing site', 'web design'),
 ('mmmmmm', '1mmmmmm', 'm', 'm@m', '123456', 'm', 'male', '1999-11-11', '', '', '', '', ''),
 ('ssssss', '1ssssss', 'sharif', 's@s', '123456', 'ss', 'male', '1999-11-11', 'web developer', 'Expert in web design', 'Cuet', 'Local developing site', 'web design'),
 ('tttttt', '1tttttt', 'Ttt ttt', 't@t', '123456', 'ttt', 'male', '1999-11-11', '', '', '', '', '');
@@ -150,20 +150,20 @@ CREATE TABLE `job_offer` (
 
 INSERT INTO `job_offer` (`job_id`, `title`, `type`, `description`, `budget`, `skills`, `special_skill`, `e_username`, `valid`, `timestamp`) VALUES
 (1, 'jjj', 'kkk', 'lll', 0, '', '20', 'nnn', 0, '0000-00-00 00:00:00'),
-(2, '', '', '', 20, '', '', '', 1, '2018-06-06 07:27:25'),
-(3, '', '', '', 500, '', '', '', 2, '2018-06-06 07:29:10'),
-(4, 'yyy', 'xxx', 'xxx', 30, 'xxx', 'xxx', 'dddddd', 1, '2018-06-07 07:16:06'),
-(5, 'zzz', 'zx', 'xz', 40, 'zzxx', 'xxzz', 'dddddd', 1, '2018-06-07 07:16:58'),
-(6, 'qqqw', 'wwwq', 'wwwwqq', 99, 'wwqq', 'wqwq', 'dddddd', 1, '2018-06-07 07:17:49'),
-(7, 'wwwww', 'wwwww', 'wwwwww', 44, 'www', 'ww', 'dddddd', 1, '2018-06-07 11:22:38'),
-(8, 'ppppp', 'ppp', 'ppp', 55, 'ppp', 'ppp', 'dddddd', 0, '2018-06-07 11:27:19'),
-(9, 'wwwww', 'wwww', 'wwww', 99, 'www', 'wwww', 'dddddd', 0, '2018-06-24 14:48:50'),
-(10, 'Job Title 1', 'Job Type 1', 'This will be a detail job description.', 100, 'skill1, skill2, skill3', 'special skill', 'employer3', 1, '2018-06-28 08:27:27'),
-(11, 'Job Title 2', 'Job Type 2', 'This will be a detail job description.', 200, 'web design', 'special skill', 'employer3', 1, '2018-06-28 08:28:05'),
-(12, 'Job Title 3', 'Job Type 1', 'This will be a detail job description.', 100, 'skill1, skill2, skill3', 'special skill', 'employer1', 1, '2018-06-28 08:28:45'),
-(13, 'Job Title 4', 'Job Type 2', 'This will be a detail job description.', 200, 'skill1, skill2, skill3', 'special skill', 'employer1', 1, '2018-06-28 08:29:29'),
-(14, 'Job Title 5', 'Job Type 2', 'This will be a detail job description.', 200, 'web design', 'special skill', 'employer1', 1, '2018-06-28 08:29:58'),
-(15, 'Job Title6', 'Job Type 2', 'This will be a detail job description.', 100, 'web design', 'special skill', 'employer1', 1, '2018-06-28 08:30:27');
+(2, '', '', '', 20, '', '', '', 1, '2024-06-06 07:27:25'),
+(3, '', '', '', 500, '', '', '', 2, '2024-06-06 07:29:10'),
+(4, 'yyy', 'xxx', 'xxx', 30, 'xxx', 'xxx', 'dddddd', 1, '2024-06-07 07:16:06'),
+(5, 'zzz', 'zx', 'xz', 40, 'zzxx', 'xxzz', 'dddddd', 1, '2024-06-07 07:16:58'),
+(6, 'qqqw', 'wwwq', 'wwwwqq', 99, 'wwqq', 'wqwq', 'dddddd', 1, '2024-06-07 07:17:49'),
+(7, 'wwwww', 'wwwww', 'wwwwww', 44, 'www', 'ww', 'dddddd', 1, '2024-06-07 11:22:38'),
+(8, 'ppppp', 'ppp', 'ppp', 55, 'ppp', 'ppp', 'dddddd', 0, '2024-06-07 11:27:19'),
+(9, 'wwwww', 'wwww', 'wwww', 99, 'www', 'wwww', 'dddddd', 0, '2024-06-24 14:48:50'),
+(10, 'Job Title 1', 'Job Type 1', 'This will be a detail job description.', 100, 'skill1, skill2, skill3', 'special skill', 'employer3', 1, '2024-06-28 08:27:27'),
+(11, 'Job Title 2', 'Job Type 2', 'This will be a detail job description.', 200, 'web design', 'special skill', 'employer3', 1, '2024-06-28 08:28:05'),
+(12, 'Job Title 3', 'Job Type 1', 'This will be a detail job description.', 100, 'skill1, skill2, skill3', 'special skill', 'employer1', 1, '2024-06-28 08:28:45'),
+(13, 'Job Title 4', 'Job Type 2', 'This will be a detail job description.', 200, 'skill1, skill2, skill3', 'special skill', 'employer1', 1, '2024-06-28 08:29:29'),
+(14, 'Job Title 5', 'Job Type 2', 'This will be a detail job description.', 200, 'web design', 'special skill', 'employer1', 1, '2024-06-28 08:29:58'),
+(15, 'Job Title6', 'Job Type 2', 'This will be a detail job description.', 100, 'web design', 'special skill', 'employer1', 1, '2024-06-28 08:30:27');
 
 -- --------------------------------------------------------
 
@@ -194,19 +194,19 @@ CREATE TABLE `message` (
 --
 
 INSERT INTO `message` (`sender`, `receiver`, `msg`, `timestamp`) VALUES
-('dddddd', 'mmmmmm', 'this is the first message', '2018-06-22 09:28:57'),
-('dddddd', 'mmmmmm', 'second msg', '2018-06-22 09:31:16'),
-('dddddd', 'ffffff', 'this message is for ffffff', '2018-06-22 10:44:33'),
-('ffffff', 'dddddd', 'Hey i have got your message', '2018-06-22 10:46:16'),
-('dddddd', 'ffffff', 'this is a reply', '2018-06-24 14:23:46'),
-('dddddd', 'ssssss', 'Hey whats up dude', '2018-06-25 12:50:09'),
-('ssssss', 'dddddd', 'I am fine', '2018-06-25 12:50:50'),
-('freelancer1', 'employer3', 'This is a message', '2018-07-01 07:22:58'),
-('freelancer2', 'employer3', 'This is message 2', '2018-07-01 07:24:45'),
-('freelancer3', 'employer3', 'This is message 3', '2018-07-01 07:25:36'),
-('employer3', 'freelancer3', 'this is reply 1', '2018-07-01 07:27:30'),
-('employer3', 'freelancer2', 'this is reply 2', '2018-07-01 07:27:37'),
-('employer3', 'freelancer1', 'this is reply 3', '2018-07-01 07:27:43');
+('dddddd', 'mmmmmm', 'this is the first message', '2024-06-22 09:28:57'),
+('dddddd', 'mmmmmm', 'second msg', '2024-06-22 09:31:16'),
+('dddddd', 'ffffff', 'this message is for ffffff', '2024-06-22 10:44:33'),
+('ffffff', 'dddddd', 'Hey i have got your message', '2024-06-22 10:46:16'),
+('dddddd', 'ffffff', 'this is a reply', '2024-06-24 14:23:46'),
+('dddddd', 'ssssss', 'Hey whats up dude', '2024-06-25 12:50:09'),
+('ssssss', 'dddddd', 'I am fine', '2024-06-25 12:50:50'),
+('freelancer1', 'employer3', 'This is a message', '2024-07-01 07:22:58'),
+('freelancer2', 'employer3', 'This is message 2', '2024-07-01 07:24:45'),
+('freelancer3', 'employer3', 'This is message 3', '2024-07-01 07:25:36'),
+('employer3', 'freelancer3', 'this is reply 1', '2024-07-01 07:27:30'),
+('employer3', 'freelancer2', 'this is reply 2', '2024-07-01 07:27:37'),
+('employer3', 'freelancer1', 'this is reply 3', '2024-07-01 07:27:43');
 
 -- --------------------------------------------------------
 
