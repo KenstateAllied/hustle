@@ -3375,7 +3375,7 @@ if (typeof jQuery === 'undefined') {
                 rr    = parseInt(value.substr(7, 2), 10),
                 k     = parseInt(value.substr(12, 1), 10);
 
-            // Validate date of birth
+            // Validate Date of Enrollment
             // FIXME: Validate the year of birth
             if (day > 31 || month > 12) {
                 return false;
@@ -3586,13 +3586,13 @@ if (typeof jQuery === 'undefined') {
          * Rules:
          * - For current 18-digit system (since 1st Oct 1999, defined by GB11643—1999 national standard):
          *     - Digit 0-5: Must be a valid administrative division code of China PR.
-         *     - Digit 6-13: Must be a valid YYYYMMDD date of birth. A future date is tolerated.
+         *     - Digit 6-13: Must be a valid YYYYMMDD Date of Enrollment. A future date is tolerated.
          *     - Digit 14-16: Order code, any integer.
          *     - Digit 17: An ISO 7064:1983, MOD 11-2 checksum.
          *       Both upper/lower case of X are tolerated.
          * - For deprecated 15-digit system:
          *     - Digit 0-5: Must be a valid administrative division code of China PR.
-         *     - Digit 6-11: Must be a valid YYMMDD date of birth, indicating the year of 19XX.
+         *     - Digit 6-11: Must be a valid YYMMDD Date of Enrollment, indicating the year of 19XX.
          *     - Digit 12-14: Order code, any integer.
          * Lists of valid administrative division codes of China PR can be seen here:
          * <http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/>
@@ -4087,7 +4087,7 @@ if (typeof jQuery === 'undefined') {
                 return false;
             }
             
-            // Check date of birth
+            // Check Date of Enrollment
             var dob;
             if (value.length === 18) {
                 dob = value.substr(6, 8);
@@ -4497,7 +4497,7 @@ if (typeof jQuery === 'undefined') {
                 return false;
             }
 
-            // Determine the date of birth
+            // Determine the Date of Enrollment
             var year      = parseInt(value.substr(1, 2), 10),
                 month     = parseInt(value.substr(3, 2), 10),
                 day       = parseInt(value.substr(5, 2), 10),

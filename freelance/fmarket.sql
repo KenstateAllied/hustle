@@ -37,8 +37,8 @@ CREATE TABLE `employer` (
   `email` varchar(200) NOT NULL,
   `contact_no` varchar(200) NOT NULL,
   `address` varchar(200) NOT NULL,
-  `Expertise` varchar(200) NOT NULL,
-  `enrollmentdate` date NOT NULL,
+  `expertise` varchar(200) NOT NULL,
+  `enrollment` date NOT NULL,
   `company` varchar(200) NOT NULL,
   `profile_sum` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -47,7 +47,7 @@ CREATE TABLE `employer` (
 -- Dumping data for table `employer`
 --
 
-INSERT INTO `employer` (`username`, `password`, `Name`, `email`, `contact_no`, `address`, `Expertise`, `enrollmentdate`, `company`, `profile_sum`) VALUES
+INSERT INTO `employer` (`username`, `password`, `Name`, `email`, `contact_no`, `address`, `Experience`, `enrollmentdate`, `company`, `profile_sum`) VALUES
 ('aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', '2024-06-07', 'aaa', 'aaa'),
 ('aaa1', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', '2024-06-07', 'aaa', 'aaa'),
 ('dddddd', '1dddddd', 'Ddd Dd', 'd@d', '123456', 'dfd', 'Mid_Level', '2222-11-11', 'qqq', 'qqq'),
@@ -93,7 +93,7 @@ CREATE TABLE `freelancer` (
 -- Dumping data for table `freelancer`
 --
 
-INSERT INTO `freelancer` (`username`, `password`, `Name`, `email`, `contact_no`, `address`, `Expertise`, `enrollmentdate`, `prof_title`, `profile_sum`, `education`, `experience`, `skills`) VALUES
+INSERT INTO `freelancer` (`username`, `password`, `Name`, `email`, `contact_no`, `address`, `expertise`, `enrollment`, `prof_title`, `profile_sum`, `education`, `experience`, `skills`) VALUES
 ('ffffff', '1ffffff', 'f', 'f@f', '123456', 'f', 'Snr_Level', '2222-11-11', 'gggggggggg', 'lllllllll', 'mmmmmmmmmmmm', 'nnnnnnnnnn', 'kkkkkkkkk'),
 ('freelancer1', '111111', 'Freelancer One', 'f@f1', '123456', 'Raojan, Chittagong', 'Entry_Level', '1999-11-11', 'web developer', 'Expert in web design', 'sales@kenstate.co.ke', 'Local developing site', 'web design'),
 ('freelancer2', '111111', 'Freelancer Two', 'f@f2', '123456', 'Raojan, Chittagong', 'Entry_Level', '1999-11-11', 'web developer', 'Expert in web design', 'sales@kenstate.co.ke', 'Local developing site', 'web design'),

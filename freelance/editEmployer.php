@@ -15,8 +15,8 @@ if ($result->num_rows > 0) {
         $name=$row["Name"];
         $email=$row["email"];
         $contactNo=$row["contact_no"];
-        $gender=$row["gender"];
-        $birthdate=$row["birthdate"];
+        $expertise=$row["expertise"];
+        $enrollment=$row["enrollment"];
         $address=$row["address"];
         $profile_sum=$row["profile_sum"];
         $company=$row["company"];
@@ -30,14 +30,14 @@ if(isset($_POST["editEmployer"])){
     $name=test_input($_POST["name"]);
     $email=test_input($_POST["email"]);
     $contactNo=test_input($_POST["contactNo"]);
-    $gender=test_input($_POST["gender"]);
-    $birthdate=test_input($_POST["birthdate"]);
+    $expertise=test_input($_POST["expertise"]);
+    $enrollment=test_input($_POST["enrollment"]);
     $address=test_input($_POST["address"]);
     $profile_sum=test_input($_POST["profile_sum"]);
     $company=test_input($_POST["company"]);
 
 
-    $sql = "UPDATE employer SET Name='$name',email='$email',contact_no='$contactNo', address='$address', gender='$gender', profile_sum='$profile_sum', birthdate='$birthdate', company='$company' WHERE username='$username'";
+    $sql = "UPDATE employer SET Name='$name',email='$email',contact_no='$contactNo', address='$address', expertise='$expertise', profile_sum='$profile_sum', enrollmentdate='$enrollmentdate', company='$company' WHERE username='$username'";
 
     
     $result = $conn->query($sql);
@@ -62,7 +62,7 @@ if(isset($_POST["editEmployer"])){
 
 <style>
 	body{padding-top: 3%;margin: 0;}
-	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#fff}
+	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#696969}
 </style>
 
 </head>
@@ -78,7 +78,7 @@ if(isset($_POST["editEmployer"])){
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Remote Projects</a>
+			<a href="index.php" class="navbar-brand">Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -131,39 +131,7 @@ if(isset($_POST["editEmployer"])){
                     </div>
                 </div>
 
-                <div class="form-group">
-                    <label class="col-sm-4 control-label">Gender</label>
-                    <div class="col-sm-5">
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="gender" 
-                                <?php if (isset($gender) && $gender=="male") echo "checked";?>
-                                 value="male" /> Male
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="gender" 
-                                <?php if (isset($gender) && $gender=="female") echo "checked";?>
-                                 value="female" /> Female
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="gender" 
-                                <?php if (isset($gender) && $gender=="other") echo "checked";?>
-                                 value="other" /> Other
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="col-sm-4 control-label">Date of birth</label>
-                    <div class="col-sm-5">
-                        <input type="text" class="form-control" name="birthdate" placeholder="YYYY/MM/DD" value="<?php echo $birthdate; ?>" />
-                    </div>
-                </div>
+               
 
                 <div class="form-group">
                     <label class="col-sm-4 control-label">Address</label>
@@ -199,7 +167,7 @@ if(isset($_POST["editEmployer"])){
 
 
 <!--Footer-->
-<div class="text-center" style="padding:4%;background:#222;color:#fff;margin-top:20px;">
+<div class="text-center" style="padding:4%;background:#222;color:#696969;margin-top:20px;">
     <div class="row">
             <div class="col-lg-3">
             <h3>Quick Links</h3>
@@ -210,10 +178,10 @@ if(isset($_POST["editEmployer"])){
         </div>
         <div class="col-lg-3">
             <h3>About</h3>
-            <p>Hustlers Consortium</p>
+            <p>We list Remote Jobs and Projects Worldwide</p>
             <p>Software Projects & Digital Works</p>
             
-            <p>&copy 2024</p>
+            <p>&copy 2025</p>
         </div>
         <div class="col-lg-3">
             <h3>Contact Us</h3>
@@ -271,7 +239,7 @@ $(document).ready(function() {
                     },
                     different: {
                         field: 'password',
-                        message: 'The username and password cannot be the same as each other'
+                        message: 'The username and password cannot be the same as each Snr_Level'
                     }
                 }
             },
@@ -322,21 +290,21 @@ $(document).ready(function() {
                     }
                 }
             },
-            gender: {
+            expertise: {
                 validators: {
                     notEmpty: {
-                        message: 'The gender is required'
+                        message: 'The Expertise is required'
                     }
                 }
             },
-            birthdate: {
+            enrollment: {
                 validators: {
                     notEmpty: {
-                        message: 'The date of birth is required'
+                        message: 'The Date of Enrollment is required'
                     },
                     date: {
                         format: 'YYYY-MM-DD',
-                        message: 'The date of birth is not valid'
+                        message: 'The Date of Enrollment is not valid'
                     }
                 }
             },

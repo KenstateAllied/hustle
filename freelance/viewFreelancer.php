@@ -33,8 +33,8 @@ if ($result->num_rows > 0) {
 		$name=$row["Name"];
 		$email=$row["email"];
 		$contactNo=$row["contact_no"];
-		$gender=$row["gender"];
-		$birthdate=$row["birthdate"];
+		$expertise=$row["expertise"];
+		$enrollment=$row["enrollment"];
 		$address=$row["address"];
 		$prof_title=$row["prof_title"];
 		$skills=$row["skills"];
@@ -62,7 +62,7 @@ if ($result->num_rows > 0) {
 
 <style>
 	body{padding-top: 3%;margin: 0;}
-	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#fff}
+	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#696969}
 </style>
 
 </head>
@@ -78,7 +78,7 @@ if ($result->num_rows > 0) {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Remote Projects</a>
+			<a href="index.php" class="navbar-brand">Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav navbar-right"> 
@@ -221,7 +221,7 @@ if ($result->num_rows > 0) {
 
 
 <!--Footer-->
-<div class="text-center" style="padding:4%;background:#222;color:#fff;margin-top:20px;">
+<div class="text-center" style="padding:4%;background:#222;color:#696969;margin-top:20px;">
 	<div class="row">
 			<div class="col-lg-3">
 			<h3>Quick Links</h3>
@@ -232,17 +232,17 @@ if ($result->num_rows > 0) {
 		</div>
 		<div class="col-lg-3">
 			<h3>About</h3>
-			<p>Hustlers Consortium</p>
+			<p>We list Remote Jobs and Projects Worldwide</p>
 			<p>Software Projects & Digital Works</p>
 			
-			<p>&copy 2024</p>
+			<p>&copy 2025</p>
 		</div>
 		<div class="col-lg-3">
 			<h3>Contact Us</h3>
 			<p>sales@kenstate.co.ke</p>
 			<p>Tel/ Whatsapp +254 724 052 417</p>
 			<p>Tel / Whatsapp +254 724 052 417 </p>
-			<p>&copy 2024</p>
+			<p>&copy 2025</p>
 		</div>
 		<div class="col-lg-3">
 			<h3>Social Contact</h3>

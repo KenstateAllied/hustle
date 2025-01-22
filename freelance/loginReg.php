@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Remote Projects</title>
+	<title>Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</title>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -15,8 +15,8 @@
 <style>
 	body{padding-top: 3%;margin: 0;}
 	.header1{background-color: #EEEEEE;padding-left: 1%;}
-	.header2{padding:20px 40px 20px 40px;color:#fff;}
-	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#fff}
+	.header2{padding:20px 40px 20px 40px;color:#696969;}
+	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#696969}
 </style>
 
 </head>
@@ -32,7 +32,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Remote Projects</a>
+			<a href="index.php" class="navbar-brand">Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<a href="loginReg.php" class="btn btn-info navbar-btn navbar-right" data-toggle="modal" data-target="#registerModal">Register</a>
@@ -146,30 +146,30 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="col-sm-4 control-label">Gender</label>
+                    <label class="col-sm-4 control-label">Expertise</label>
                     <div class="col-sm-5">
                         <div class="radio">
                             <label>
-                                <input type="radio" name="gender" value="male" /> Male
+                                <input type="radio" name="Expertise" value="Entry_Level" /> Entry_Level
                             </label>
                         </div>
                         <div class="radio">
                             <label>
-                                <input type="radio" name="gender" value="female" /> Female
+                                <input type="radio" name="Expertise" value="Mid_Level" /> Mid_Level
                             </label>
                         </div>
                         <div class="radio">
                             <label>
-                                <input type="radio" name="gender" value="other" /> Other
+                                <input type="radio" name="Expertise" value="Snr_Level" /> Snr_Level
                             </label>
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label class="col-sm-4 control-label">Date of birth</label>
+                    <label class="col-sm-4 control-label">Date of Enrollment</label>
                     <div class="col-sm-5">
-                        <input type="text" class="form-control" name="birthdate" value="<?php echo $birthdate; ?>" placeholder="YYYY-MM-DD" />
+                        <input type="text" class="form-control" name="enrollmentdate" value="<?php echo $enrollmentdate; ?>" placeholder="YYYY-MM-DD" />
                     </div>
                 </div>
 
@@ -212,7 +212,7 @@
 
 
 <!--Footer-->
-<div class="text-center" style="padding:4%;background:#222;color:#fff;margin-top:20px;">
+<div class="text-center" style="padding:4%;background:#222;color:#696969;margin-top:20px;">
     <div class="row">
             <div class="col-lg-3">
             <h3>Quick Links</h3>
@@ -220,9 +220,9 @@
         </div>
         <div class="col-lg-3">
             <h3>About</h3>
-            <p>Hustlers Consortium</p>
+            <p>We list Remote Jobs and Projects Worldwide</p>
             <p>Software Projects & Digital Works</p>
-            <p>&copy 2024</p>
+            <p>&copy 2025</p>
         </div>
         <div class="col-lg-3">
             <h3>Contacts</h3>
@@ -281,7 +281,7 @@ $(document).ready(function() {
                     },
                     different: {
                         field: 'password',
-                        message: 'The username and password cannot be the same as each other'
+                        message: 'The username and password cannot be the same as each Snr_Level'
                     }
                 }
             },
@@ -332,21 +332,21 @@ $(document).ready(function() {
                     }
                 }
             },
-            gender: {
+            Expertise: {
                 validators: {
                     notEmpty: {
-                        message: 'The gender is required'
+                        message: 'The Expertise is required'
                     }
                 }
             },
-            birthdate: {
+            enrollmentdate: {
                 validators: {
                     notEmpty: {
-                        message: 'The date of birth is required'
+                        message: 'The Date of Enrollment is required'
                     },
                     date: {
                         format: 'YYYY-MM-DD',
-                        message: 'The date of birth is not valid'
+                        message: 'The Date of Enrollment is not valid'
                     }
                 }
             },

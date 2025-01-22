@@ -19,7 +19,7 @@ else{
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Remote Projects</title>
+	<title>Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</title>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -29,8 +29,8 @@ else{
 <style>
 	body{padding-top: 3%;margin: 0;}
 	.header1{background-color: #EEEEEE;padding-left: 1%;}
-	.header2{padding:20px 40px 20px 40px;color:#fff;}
-	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#fff}
+	.header2{padding:20px 40px 20px 40px;color:#696969;}
+	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#696969}
 </style>
 
 </head>
@@ -46,7 +46,7 @@ else{
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Remote Projects</a>
+			<a href="index.php" class="navbar-brand">Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<a href="loginReg.php" class="btn btn-info navbar-btn navbar-right">Register</a>
@@ -70,7 +70,7 @@ else{
 	<div class="col-lg-4">
 		<div class="jumbotron">
 			<div class="container text-center">
-				<h1>Remote Projects</h1>
+				<h1>Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</h1>
 				<p>Have any type of digital works you need to be done? Looking for works?</p>
 				<a href="loginReg.php" class="btn btn-warning btn-lg">Register now and start earning</a>
 				<p></p>
@@ -148,7 +148,7 @@ else{
 			<p></p>
 			<a href="loginReg.php" class="btn btn-success btn-lg">Get Started</a>
 		</div>
-		<div class="col-lg-6" style="padding:40px 80px 40px 80px;margin-top:15px;box-shadow: 4px 4px 2px 5px rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);background:#fff">
+		<div class="col-lg-6" style="padding:40px 80px 40px 80px;margin-top:15px;box-shadow: 4px 4px 2px 5px rgba(0, 0, 0, 0.2), 0 6px 0px 0 rgba(0, 0, 0, 0.19);background:#696969">
 			<h1>Looking for work?</h1>
 			<p>If you are an expert in any kind of digital works, then do not hesitate to join our platform. It is easy to use and payment is secured. It is a great platform to those people who are skillful. So do not miss the chance to explore the job posts and make some money.</p>
 			<p></p>
@@ -261,10 +261,10 @@ else{
 <div class="container text-center" style="padding:4%;" id="faq">
   <h1 class="card header2" style="background:#007BFF">FAQ</h1>
   <div class="btn-group-vertical">
-  <button type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#demo" style="width:1062px"><h3>What is Remote Projects?</h3></button>
+  <button type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#demo" style="width:1062px"><h3>What is Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417?</h3></button>
   <div id="demo" class="collapse">
   	<div class="card" style="padding:20px 40px 20px 40px;">
-  		<h4>Remote Projects is an online outsourcing platform that puts employers and businesses in contact with a global network of freelancers. Any member can post a project, whether a short- or long-term job, and choose from skilled freelancers who offer bid proposals with rate for completing the work. It's a mutually beneficial arrangement. <br>Employers can have their pick of thousands of freelancers who have the exact skills needed to get the job done, without undertaking the expense and commitment of hiring full-time employees in person. <br>Freelancers can tap into a readily available source of constant part-time and full-time work opportunities from employers who are specifically seeking them out.</h4>
+  		<h4>Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417 is an online outsourcing platform that puts employers and businesses in contact with a global network of freelancers. Any member can post a project, whether a short- or long-term job, and choose from skilled freelancers who offer bid proposals with rate for completing the work. It's a mutually beneficial arrangement. <br>Employers can have their pick of thousands of freelancers who have the exact skills needed to get the job done, without undertaking the expense and commitment of hiring full-time employees in person. <br>Freelancers can tap into a readily available source of constant part-time and full-time work opportunities from employers who are specifically seeking them out.</h4>
   	</div>
   </div>
   <button type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#demo1" style="width:1062px"><h3>I am an Employer, how will this site work for me?</h3></button>
@@ -282,7 +282,7 @@ else{
   <button type="button" class="btn btn-default btn-lg" data-toggle="collapse" data-target="#demo3" style="width:1062px"><h3>Do I have to pay to register?</h3></button>
   <div id="demo3" class="collapse">
   	<div class="card" style="padding:20px 40px 20px 40px;">
-  		<h4>No. Remote Projects is absolutely free to register and explore the posted job offers, freelancers and employers.</h4>
+  		<h4>No. Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417 is absolutely free to register and explore the posted job offers, freelancers and employers.</h4>
   	</div>
   </div>
   </div>
@@ -291,7 +291,7 @@ else{
 
 
 <!--Footer-->
-<div class="text-center" style="padding:4%;background:#222;color:#fff;margin-top:20px;">
+<div class="text-center" style="padding:4%;background:#222;color:#696969;margin-top:20px;">
 	<div class="row">
 			<div class="col-lg-3">
 			<h3>Quick Links</h3>
@@ -303,10 +303,10 @@ else{
 		</div>
 		<div class="col-lg-3">
 			<h3>About</h3>
-			<p>Hustlers Consortium</p>
+			<p>We list Remote Jobs and Projects Worldwide</p>
 			<p>Software Projects & Digital Works</p>
 			
-			<p>&copy 2024</p>
+			<p>&copy 2025</p>
 		</div>
 		<div class="col-lg-3">
 			<h3>Contact Us</h3>

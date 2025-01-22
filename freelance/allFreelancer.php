@@ -61,7 +61,7 @@ if(isset($_POST["s_email"])){
 
 <style>
 	body{padding-top: 3%;margin: 0;}
-	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#fff}
+	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#696969}
 </style>
 
 </head>
@@ -77,7 +77,7 @@ if(isset($_POST["s_email"])){
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Remote Projects</a>
+			<a href="index.php" class="navbar-brand">Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -201,7 +201,7 @@ if(isset($_POST["s_email"])){
 
 
 <!--Footer-->
-<div class="text-center" style="padding:4%;background:#222;color:#fff;margin-top:20px;">
+<div class="text-center" style="padding:4%;background:#222;color:#696969;margin-top:20px;">
 	<div class="row">
 			<div class="col-lg-3">
 			<h3>Quick Links</h3>
@@ -212,10 +212,10 @@ if(isset($_POST["s_email"])){
 		</div>
 		<div class="col-lg-3">
 			<h3>About</h3>
-			<p>Hustlers Consortium</p>
+			<p>We list Remote Jobs and Projects Worldwide</p>
 			<p>Software Projects & Digital Works</p>
 			
-			<p>&copy 2024</p>
+			<p>&copy 2025</p>
 		</div>
 		<div class="col-lg-3">
 			<h3>Contact Us</h3>

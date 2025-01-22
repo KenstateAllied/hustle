@@ -1,6 +1,11 @@
 <?php
 session_start();
 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$db = "fmarket";
+
 
 // Create connection
 $conn = new mysqli("localhost", "root", "", "fmarket");
@@ -21,7 +26,7 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }*/
 
-$username=$name=$email=$password=$contactNo=$birthdate=$address="";
+$username=$name=$email=$password=$contactNo=$enrollmentdate=$address="";
 
 if(isset($_POST["register"])){
 	$username=test_input($_POST["username"]);
@@ -30,8 +35,8 @@ if(isset($_POST["register"])){
 	$password=test_input($_POST["password"]);
 	$repassword=test_input($_POST["repassword"]);
 	$contactNo=test_input($_POST["contactNo"]);
-	$gender=test_input($_POST["gender"]);
-	$birthdate=test_input($_POST["birthdate"]);
+	$expertise=test_input($_POST["expertise"]);
+	$enrollment=test_input($_POST["enrollment"]);
 	$address=test_input($_POST["address"]);
 	$usertype=test_input($_POST["usertype"]);
 
@@ -43,7 +48,7 @@ if(isset($_POST["register"])){
 		}
 		else{
 			unset($_SESSION["errorMsg2"]);
-			$sql = "INSERT INTO freelancer (username, password, Name, email, contact_no, address, gender, birthdate) VALUES ('$username', '$password', '$name','$email','$contactNo','$address','$gender','$birthdate')";
+			$sql = "INSERT INTO freelancer (username, password, Name, email, contact_no, address, Expertise, enrollmentdate) VALUES ('$username', '$password', '$name','$email','$contactNo','$address','$expertise','$enrollment')";
 			$result = $conn->query($sql);
 			if($result==true){
 				$_SESSION["Username"]=$username;
@@ -61,7 +66,7 @@ if(isset($_POST["register"])){
 		}
 		else{
 			unset($_SESSION["errorMsg2"]);
-			$sql = "INSERT INTO employer (username, password, Name, email, contact_no, address, gender, birthdate) VALUES ('$username', '$password', '$name','$email','$contactNo','$address','$gender','$birthdate')";
+			$sql = "INSERT INTO employer (username, password, Name, email, contact_no, address, expertise, enrollment) VALUES ('$username', '$password', '$name','$email','$contactNo','$address','$expertise','$enrollment')";
 			$result = $conn->query($sql);
 			if($result==true){
 				$_SESSION["Username"]=$username;

@@ -15,8 +15,8 @@ if ($result->num_rows > 0) {
 		$name=$row["Name"];
 		$email=$row["email"];
 		$contactNo=$row["contact_no"];
-		$gender=$row["gender"];
-		$birthdate=$row["birthdate"];
+		$expertise=$row["expertise"];
+		$enrollment=$row["enrollment"];
 		$address=$row["address"];
 		$prof_title=$row["prof_title"];
 		$skills=$row["skills"];
@@ -33,8 +33,8 @@ if(isset($_POST["editFreelancer"])){
 	$name=test_input($_POST["name"]);
 	$email=test_input($_POST["email"]);
 	$contactNo=test_input($_POST["contactNo"]);
-	$gender=test_input($_POST["gender"]);
-	$birthdate=test_input($_POST["birthdate"]);
+	$expertise=test_input($_POST["expertise"]);
+	$enrollment=test_input($_POST["enrollment"]);
 	$address=test_input($_POST["address"]);
 	$prof_title=test_input($_POST["prof_title"]);
 	$skills=test_input($_POST["skills"]);
@@ -43,7 +43,7 @@ if(isset($_POST["editFreelancer"])){
 	$experience=test_input($_POST["experience"]);
 
 
-	$sql = "UPDATE freelancer SET Name='$name',email='$email',contact_no='$contactNo', address='$address', gender='$gender',prof_title='$prof_title',profile_sum='$profile_sum',education='$education',experience='$experience', birthdate='$birthdate', skills='$skills' WHERE username='$username'";
+	$sql = "UPDATE freelancer SET Name='$name',email='$email',contact_no='$contactNo', address='$address', expertise='$expertise',prof_title='$prof_title',profile_sum='$profile_sum',education='$education',experience='$experience', enrollmentdate='$enrollmentdate', skills='$skills' WHERE username='$username'";
 
 	
 	$result = $conn->query($sql);
@@ -68,7 +68,7 @@ if(isset($_POST["editFreelancer"])){
 
 <style>
 	body{padding-top: 3%;margin: 0;}
-	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#fff}
+	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#696969}
 </style>
 
 </head>
@@ -84,7 +84,7 @@ if(isset($_POST["editFreelancer"])){
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="index.php" class="navbar-brand">Remote Projects</a>
+			<a href="index.php" class="navbar-brand">Remote Projects info@kenstate.co.ke Tel/ WhatsApp +254724052417</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
@@ -138,36 +138,36 @@ if(isset($_POST["editFreelancer"])){
                 </div>
 
                 <div class="form-group">
-                    <label class="col-sm-4 control-label">Gender</label>
+                    <label class="col-sm-4 control-label">Expertise</label>
                     <div class="col-sm-5">
                         <div class="radio">
                             <label>
-                                <input type="radio" name="gender"
-                                <?php if (isset($gender) && $gender=="male") echo "checked";?>
-                                 value="male" /> Male
+                                <input type="radio" name="Expertise"
+                                <?php if (isset($expertise) && $expertise=="Entry_Level") echo "checked";?>
+                                 value="Entry_Level" /> Entry_Level
                             </label>
                         </div>
                         <div class="radio">
                             <label>
-                                <input type="radio" name="gender"
-                                <?php if (isset($gender) && $gender=="female") echo "checked";?>
-                                 value="female" /> Female
+                                <input type="radio" name="Expertise"
+                                <?php if (isset($expertise) && $expertise=="Mid_Level") echo "checked";?>
+                                 value="Mid_Level" /> Mid_Level
                             </label>
                         </div>
                         <div class="radio">
                             <label>
-                                <input type="radio" name="gender"
-                                <?php if (isset($gender) && $gender=="other") echo "checked";?>
-                                 value="other" /> Other
+                                <input type="radio" name="Expertise"
+                                <?php if (isset($expertise) && $expertise=="Snr_Level") echo "checked";?>
+                                 value="Snr_Level" /> Snr_Level
                             </label>
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label class="col-sm-4 control-label">Date of birth</label>
+                    <label class="col-sm-4 control-label">Date of Enrollment</label>
                     <div class="col-sm-5">
-                        <input type="text" class="form-control" name="birthdate" placeholder="YYYY/MM/DD" value="<?php echo $birthdate; ?>" />
+                        <input type="text" class="form-control" name="enrollmentdate" placeholder="YYYY/MM/DD" value="<?php echo $enrollmentdate; ?>" />
                     </div>
                 </div>
 
@@ -226,7 +226,7 @@ if(isset($_POST["editFreelancer"])){
 
 
 <!--Footer-->
-<div class="text-center" style="padding:4%;background:#222;color:#fff;margin-top:20px;">
+<div class="text-center" style="padding:4%;background:#222;color:#696969;margin-top:20px;">
     <div class="row">
             <div class="col-lg-3">
             <h3>Quick Links</h3>
@@ -237,10 +237,10 @@ if(isset($_POST["editFreelancer"])){
         </div>
         <div class="col-lg-3">
             <h3>About</h3>
-            <p>Hustlers Consortium</p>
+            <p>We list Remote Jobs and Projects Worldwide</p>
             <p>Software Projects & Digital Works</p>
             
-            <p>&copy 2024</p>
+            <p>&copy 2025</p>
         </div>
         <div class="col-lg-3">
             <h3>Contact Us</h3>
@@ -298,7 +298,7 @@ $(document).ready(function() {
                     },
                     different: {
                         field: 'password',
-                        message: 'The username and password cannot be the same as each other'
+                        message: 'The username and password cannot be the same as each Snr_Level'
                     }
                 }
             },
@@ -349,21 +349,21 @@ $(document).ready(function() {
                     }
                 }
             },
-            gender: {
+            Expertise: {
                 validators: {
                     notEmpty: {
-                        message: 'The gender is required'
+                        message: 'The Expertise is required'
                     }
                 }
             },
-            birthdate: {
+            enrollmentdate: {
                 validators: {
                     notEmpty: {
-                        message: 'The date of birth is required'
+                        message: 'The Date of Enrollment is required'
                     },
                     date: {
                         format: 'YYYY-MM-DD',
-                        message: 'The date of birth is not valid'
+                        message: 'The Date of Enrollment is not valid'
                     }
                 }
             },
